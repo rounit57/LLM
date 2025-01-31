@@ -2,7 +2,7 @@ import os
 import ollama
 
 # Restrict computation to GPU 0
-# os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 # Check if GPU is available
 try:
