@@ -1,0 +1,11 @@
+
+streamlit
+pdfplumber
+semantic-chunkers
+open-text-embeddings
+ollama
+prompt-template
+langchain
+langchain_experimental
+sentence-transformers
+faiss-cpu
