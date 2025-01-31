@@ -10,9 +10,9 @@ from langchain.chains.combine_documents.stuff import StuffDocumentsChain
 from langchain.chains import RetrievalQA
 
 # Streamlit UI
-st.title("📄 RAG System with DeepSeek R1 & Ollama")
+# st.title("📄 RAG System with DeepSeek R1 & Ollama")
 
-uploaded_file = st.file_uploader("Upload your PDF file here", type="pdf")
+# uploaded_file = st.file_uploader("Upload your PDF file here", type="pdf")
 
 if uploaded_file:
     with open("temp.pdf", "wb") as f:
